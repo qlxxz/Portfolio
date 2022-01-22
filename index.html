@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" href="images/logo-title.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -14,6 +15,7 @@
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="styles/main.css">
     <title>Vlada - Portfolio</title>
+
 </head>
 <body>
 <!-- MENU -->
@@ -21,6 +23,7 @@
     <div class="container">
 
         <div class="collapse navbar-collapse" id="navbarNav">
+            <img style="width: 120px;" class="navbar-brand" src="images/logo1.svg" alt="logo">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
@@ -42,11 +45,11 @@
             <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                 <div class="about-text">
                     <h1 class="animated animated-text">
-                        <span class="mr-2">Welcome to my <span style="color: #005cbf">Portfolio Website</span></span>
+                        <span class="mr-2">Welcome to my <span class="typed" style="color: #0D5EFA"></span></span>
                     </h1>
                     <p>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</p>
                     <div id="button">
-                        <button type="button" class="btn btn-primary">Go to projects</button>
+                        <span type="button" class="btn btn-primary">Go to projects</span>
                         <button type="button" class="btn btn-light" style="color: #4e555b">Contacts</button>
                     </div>
                 </div>
@@ -136,18 +139,13 @@
         </div>
     </div>
 
-
-
-
-
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/Headroom.js"></script>
-<script src="js/jQuery.headroom.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/custom.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script>
+        var typed = new Typed('.typed', {
+            strings: ["Portfolio Website"],
+            typeSpeed: 40
+        });
+    </script>
 
 </body>
 </html>

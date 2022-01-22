@@ -106,3 +106,12 @@
     right:0;
     content:'\00BB';
 }
+.nav-item{
+    margin-top: 10px;
+    margin-right: 50px;
+
+}
+.btn:hover{
+transform: scale(1.03);
+    transition: 0.2s;
+}
