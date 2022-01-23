@@ -1,3 +1,4 @@
+
 #pic{
     width: 650px;
     height: 400px;
@@ -24,7 +25,7 @@
 .widget-simplenav a{ margin:0 5px; }
 
 #button{
-    margin-left: 20px;
+
     margin-top: 20px;
 }
 .carousel {
@@ -115,3 +116,76 @@
 transform: scale(1.03);
     transition: 0.2s;
 }
+
+.menu-link{
+    font-family:'Roboto', sans-serif;
+}
+.menu-link:active{
+    color: #0D5EFA;
+}
+
+.gallery{
+
+}
+.gallery_list{
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-items-align: center;
+    align-items: center;
+    margin: 10px 20px;
+    min-height: 70vh;
+    margin-bottom: 30px;
+
+
+
+}
+
+.gallery_item{
+    position: relative;
+    max-width: 700px;
+
+
+}
+.gallery_item img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+.gallery_item .text{
+    padding: 30px 0;
+    text-align: center;
+    border: 0.1px solid #dae0e5;
+    border-radius: 0 0 15px 15px;
+
+}
+
+.gallery_item .text p{
+margin: 20px 0;
+}
+.gallery_item .text a{
+    text-decoration: none;
+    display: inline-block;
+    color: #0D5EFA;
+    border: 1px solid #0D5EFA;
+    border-radius: 5px;
+    padding: 10px 20px;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.gallery_item .text a:hover{
+    background-color: #0D5EFA;
+    color: white;
+    border-color: #0D5EFA;
+    border-radius: 5px;
+}
+
+
+
+
